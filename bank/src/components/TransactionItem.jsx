@@ -1,6 +1,12 @@
-function TransactionItem() {
+function TransactionItem({transactionItem}) {
+    console.log('transaction item', transactionItem);
     return (  <>
-    <h3>Trasaction Item</h3>
+     <tr key={transactionItem.id}>
+        <td>{transactionItem.date}</td>
+        <td>{transactionItem.description}</td>
+        <td>{transactionItem.category}</td>
+        <td>{transactionItem.amount}</td>
+      </tr>
     </>);
 }
 

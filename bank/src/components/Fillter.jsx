@@ -1,5 +1,10 @@
 function Fillter() {
-    return ( <> <h3>Filter</h3></> );
+    return (<>
+        <div>
+            <input type="text" placeholder="search transactions" value={} />
+        </div>
+
+    </>);
 }
 
 export default Fillter;
