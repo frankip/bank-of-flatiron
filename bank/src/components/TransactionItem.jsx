@@ -1,5 +1,4 @@
 function TransactionItem({transactionItem}) {
-    console.log('transaction item', transactionItem);
     return (  <>
      <tr key={transactionItem.id}>
         <td>{transactionItem.date}</td>
